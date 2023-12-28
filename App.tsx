@@ -17,7 +17,7 @@ function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <EmbeddedWebView source={{uri: 'https://bs.st.benefit-one.inc/'}} />
+    <EmbeddedWebView source={{uri: 'https://bs.benefit-one.inc/'}} />
   );
 }
 
